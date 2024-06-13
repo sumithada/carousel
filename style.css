@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+ background: url(images/img1.jpg);
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ width: auto;  
+}
+
+a{
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.btn{
+    color:#140785d5;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(41, 209, 203, 0.793);
+    /* border: 2px solid black; */
+    border-radius: 50%;
+font-size: 5rem;
+font-weight: bold;
+margin-top: 20%;
+    /* height: 200px;
+    width: 200px; */
+}
+
+.radio-box{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    background-color: #544f4f;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.box ul li{
+    display: inline-block;
+}
+
+.btn-right{
+  float: right; 
+}
+
+.btn-left{
+    float: left;  
+  }
